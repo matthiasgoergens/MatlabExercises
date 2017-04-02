@@ -1,4 +1,4 @@
-function T=temperature(t)
+function T=temperature2(t)
     beta=15/3600;
     T0=56.2; %intial temperature
     T=T0-beta*(t);
